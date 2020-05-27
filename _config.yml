@@ -11,14 +11,14 @@ description:
 github_username: Diyago
 
 # Email and twitter are optional:
-email:
+email: 
 twitter_username: IAshrapov
 
 # Set this to true to get LaTeX math equation support
 use_math: True
 
 # Add your Google Analytics ID here if you have one and want to use it
-google_analytics:
+google_analytics: UA-40776916-2
 
 # Everything below here can be ignored, unless you want to change the theme entirely
 theme: minima
