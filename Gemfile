@@ -19,7 +19,6 @@ group :jekyll_plugins do
 end
 
 gem "jekyll-github-metadata"
-gem "activesupport", ">= 6.0.3.1"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
