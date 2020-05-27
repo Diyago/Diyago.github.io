@@ -1,4 +1,8 @@
 # About
 
-This is where you put the contents of your *About* page. Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
+My name is Insaf Ashrapov, I am a Senior Data Scientiest at Sberbank.
 
+Here are links to my social network accounts:
+- [Linkedin](https://www.linkedin.com/in/iashrapov/)
+- [Facebook](https://www.facebook.com/inashrapov)
+- [Twitter](https://twitter.com/IAshrapov)
