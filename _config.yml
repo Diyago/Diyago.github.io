@@ -19,6 +19,8 @@ use_math: True
 
 # Add your Google Analytics ID here if you have one and want to use it
 google_analytics: UA-40776916-2
+yandex-verification: ebd41ad0d7472211
+
 
 # Everything below here can be ignored, unless you want to change the theme entirely
 theme: minima
