@@ -5,7 +5,7 @@
 ***Our team***: Insaf Ashrapov, Mikhail Karchevskiy, Leonid Kozinkin
 The task was to accurately identify if a subsurface target is a salt or not on seismic images.
 
-## Input
+## Input Data
 
 ![salts.png](/images/kaggle-salt/salts.png)
 *Salt image and its corresponding mask*
@@ -42,11 +42,12 @@ We didn’t try two big promising things which could help us:
 
 1) Pseudo labeling. Then you use predicted test images with high confidence in the train [10]. The first place placed this method as the main one, which boosted his score.
 2) Deep semi-supervised learning [12]. This approach aims to use both labeled and unlabeled images. Here we supposed to train multiple deep neural networks for the different views and exploits adversarial examples to encourage view difference, in order to prevent the networks from collapsing into each other. As a result, the co-trained networks provide different and complementary information about the data, which is necessary for the Co-Training framework to achieve good results.
-![studentnet](/images/kaggle-salt/studentnet.png)
+![studentnet.png](/images/kaggle-salt/studentnet.png)
+*Mean teachers are better role models: Weight-averaged consistency targets improve semi-supervised deep learning results. Image provided by Heng CherKeng*
 
 ## Post Processing
 
-![mosaik](/images/kaggle-salt/mosaik.jpg)
+![mosaik.jpg](/images/kaggle-salt/mosaik.jpg)
 *Puzzle created by Arthur Kuzin (red-train masks, green-predicted test masks)*
 
 * Removing smalls masks and small independent masks (black and white) by using cv2.connectedComponentsWithStats (morphology didn’t work that well) 
