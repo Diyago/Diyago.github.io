@@ -7,7 +7,7 @@ The task was to accurately identify if a subsurface target is a salt or not on s
 
 ## Input
 
-![SALT](/images/kaggle-salt/salts.png)
+![salts.png](/images/kaggle-salt/salts.png)
 *Salt image and its corresponding mask*
 
 Initially, we had grayscale 1 channel input image with a size of 101*101. To make it usable with pretrained encoders we adjusted them to 128x128 with the 1st channel as the source image by padding, the 2nd channel we used relative depth:
