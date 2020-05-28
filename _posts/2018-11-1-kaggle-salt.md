@@ -7,7 +7,7 @@ The task was to accurately identify if a subsurface target is a salt or not on s
 
 ## Input
 
-![SALT](../_includes/image/../../images/kaggle-salt/salts.png)
+![SALT](/images/kaggle-salt/salts.png)
 *Salt image and its corresponding mask*
 
 Initially, we had grayscale 1 channel input image with a size of 101*101. To make it usable with pretrained encoders we adjusted them to 128x128 with the 1st channel as the source image by padding, the 2nd channel we used relative depth:
@@ -36,9 +36,17 @@ Batch size 20 (maximum size that fitted into GPU memory), Adam [6], Cyclic learn
 For the first 80 epochs, we trained with BCE (binary cross entropy) loss and then other up to 420 epochs 0.1 BCE + 0.9 Lovasz as a loss function [9]. However almost everytime training was stopped by ealystopping. Using only Lovasz also worked pretty well, but BCE speeded up initial training.
 We used 1080ti and 1070ti with pytorch for training. Unfortunately, Keras wasn’t so convenient to try on new things, moreover, Pytorch pretrained library of encoders is richer.
 
+## What else
+
+We didn’t try two big promising things which could help us:
+
+1) Pseudo labeling. Then you use predicted test images with high confidence in the train [10]. The first place placed this method as the main one, which boosted his score.
+2) Deep semi-supervised learning [12]. This approach aims to use both labeled and unlabeled images. Here we supposed to train multiple deep neural networks for the different views and exploits adversarial examples to encourage view difference, in order to prevent the networks from collapsing into each other. As a result, the co-trained networks provide different and complementary information about the data, which is necessary for the Co-Training framework to achieve good results.
+![studentnet](/images/kaggle-salt/studentnet.png)
+
 ## Post Processing
 
-![mosaik](../images/kaggle-salt/mosaik.jpg)
+![mosaik](/images/kaggle-salt/mosaik.jpg)
 *Puzzle created by Arthur Kuzin (red-train masks, green-predicted test masks)*
 
 * Removing smalls masks and small independent masks (black and white) by using cv2.connectedComponentsWithStats (morphology didn’t work that well) 
