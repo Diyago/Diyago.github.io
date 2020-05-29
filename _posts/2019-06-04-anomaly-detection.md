@@ -1,11 +1,11 @@
 # Anomaly detection in time series with Prophet library
 
-Anomaly detection problem for time series can be formulated as finding outlier data points relative to some standard or usual signal. While there are plenty of anomaly types, we’ll focus only on the most important ones from a business perspective, such as unexpected spikes, drops, trend changes and level shifts by using Prophet library.
+*Anomaly detection problem for time series can be formulated as finding outlier data points relative to some standard or usual signal. While there are plenty of anomaly types, we’ll focus only on the most important ones from a business perspective, such as unexpected spikes, drops, trend changes and level shifts by using Prophet library.*
 
 You can solve this problem in two way: supervised and unsupervised. While the first approach needs some labeled data, second does not, you need the just raw data. On that article, we will focus on the second approach.
 
 * #### Originally posted [on Medium](https://towardsdatascience.com/anomaly-detection-time-series-4c661f6f165f).
-* [Github repo](https://github.com/Diyago/ML-DL-scripts/tree/96825d152203ade61306f4afeeffcd31fc11b01c/time%20series%20regression/anomaly%20detection)
+* #### [Github repo](https://github.com/Diyago/ML-DL-scripts/tree/96825d152203ade61306f4afeeffcd31fc11b01c/time%20series%20regression/anomaly%20detection)
 
 ![anomaly.png](/images/anomaly/anomaly.png)
 

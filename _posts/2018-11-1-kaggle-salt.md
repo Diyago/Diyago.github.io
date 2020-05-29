@@ -1,6 +1,6 @@
 # Kaggle Salt Identification Challenge or how to segment images
 
-28th place solution (top 1%), based on a single 5-Unet like model with hflip TTA (test time augmentation) and few other tricks.
+*28th place solution (top 1%), based on a single 5-Unet like model with hflip TTA (test time augmentation) and few other tricks.*
 
 ***Our team***: Insaf Ashrapov, Mikhail Karchevskiy, Leonid Kozinkin
 The task was to accurately identify if a subsurface target is a salt or not on seismic images.
