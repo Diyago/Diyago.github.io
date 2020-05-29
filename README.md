@@ -1,3 +1,3 @@
-# Your blog
+# Machine & Deep Learning Blog by Insaf Ashapov
 
-This is the repository for your blog! Click *_config.yml* above to get started and fill in the details. Then click *index.md* and edit it to start creating your home page.
+###Go for it: [https://diyago.github.io/](https://diyago.github.io/)
