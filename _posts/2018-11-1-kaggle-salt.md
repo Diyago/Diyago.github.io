@@ -5,6 +5,9 @@
 ***Our team***: Insaf Ashrapov, Mikhail Karchevskiy, Leonid Kozinkin
 The task was to accurately identify if a subsurface target is a salt or not on seismic images.
 
+* #### Originally posted [on Medium](https://medium.com/me/stats/post/7fc502d1c3c3).
+* #### [Gitgub repo](https://github.com/Diyago/Automatic-salt-deposits-segmentation)
+
 ## Input Data
 
 ![salts.png](/images/kaggle-salt/salts.png)
