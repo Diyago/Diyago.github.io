@@ -46,4 +46,5 @@ kramdown:
   syntax_highlighter: rouge
   
 show_excerpts: true
+comments: true
 
