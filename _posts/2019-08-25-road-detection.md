@@ -2,6 +2,8 @@
 
 *In this article, I will show how to write own data generator and how to use albumentations as augmentation library. Along with segmentation_models library, which provides dozens of pretrained heads to Unet and other unet-like architectures. For the full code go to Github. Link to dataset.*
 
+* #### Original [Medium post](https://towardsdatascience.com/road-detection-using-segmentation-models-and-albumentations-libraries-on-keras-d5434eaf73a8)
+
 ## Theory
 
 The task of semantic image segmentation is to label each pixel of an image with a corresponding class of what is being represented. For such a task, Unet architecture with different variety of improvements has shown the best result. The core idea behind it just few convolution blocks, which extracts deep and different type of image features, following by so-called deconvolution or upsample blocks, which restore the initial shape of the input image. Besides after each convolution layers, we have some skip-connections, which help the network to remember about initial image and help against fading gradients. For more detailed information you can read the arxiv article or another article.
