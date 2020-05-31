@@ -7,12 +7,39 @@
 # https://learnxinyminutes.com/docs/yaml/
 
 title: Machine & Deep Learning Blog by Insaf Ashapov
-description: By Insaf Ashapov (Senior DS)
+autor:
+  name: Insaf Ashapov
+  email: iashrapov@gmail.com
+  twitter_username: IAshrapov
+
+description: > 
+  Machine & Deep Learning Blog by Insaf Ashapov, Senior Data Scientiest 
 github_username: Diyago
 
 # Email and twitter are optional:
 email: 
 twitter_username: IAshrapov
+
+
+minima:
+  social_links:
+    twitter: IAshrapov
+    github:  Diyago
+      # devto: jekyll
+      # dribbble: jekyll
+      # facebook: jekyll
+      # flickr:   jekyll
+    instagram: insafq
+      # linkedin: jekyll
+      # pinterest: jekyll
+      # youtube: jekyll
+      # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+      # youtube_channel_name: CloudCannon
+      # telegram: jekyll
+      # googleplus: +jekyll
+      # microdotblog: jekyll
+      # keybase: jekyll
+
 
 # Set this to true to get LaTeX math equation support
 use_math: True
@@ -30,6 +57,7 @@ plugins:
   - jekyll-octicons
   - jekyll-github-metadata
   - jekyll-relative-links
+  - jekyll-seo-tag
 
 titles_from_headings:
   enabled:     true
@@ -47,4 +75,6 @@ kramdown:
   
 show_excerpts: true
 comments: true
+
+comments: disqus
 
