@@ -8,3 +8,6 @@ Here are links to my social network accounts:
 - [Twitter](https://twitter.com/IAshrapov)
 - [Github](https://github.com/Diyago)
 - [Medium](https://medium.com/@insafashrapov)
+- [Kaggle](https://www.kaggle.com/insaff) expert
+
+![kaggle_rank.png](/images/kaggle_rank.png)
