@@ -1,6 +1,6 @@
 # Severstal Steel Defect Detection Challenge on Kaggle
 
-***31 place solution writeup**. Steel is one of the most important building materials of modern times. Steel buildings are resistant to natural and man-made wear which has made the material ubiquitous around the world. To help make production of steel more efficient, this competition will help identify defects.*
+***Top 2% (31/2431) solution writeup**. Steel is one of the most important building materials of modern times. Steel buildings are resistant to natural and man-made wear which has made the material ubiquitous around the world. To help make production of steel more efficient, this competition will help identify defects.*
 
 * ### 31 place [solution on Github ](https://github.com/Diyago/Severstal-Steel-Defect-Detection)
 
