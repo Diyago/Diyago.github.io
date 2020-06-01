@@ -15,16 +15,10 @@ autor:
 description: > 
   Machine & Deep Learning Blog by Insaf Ashapov, Senior Data Scientiest 
 github_username: Diyago
-
-# Email and twitter are optional:
-email: 
 twitter_username: IAshrapov
+name: Insaf Ashapov
+email: iashrapov@gmail.com
 
-
-minima:
-social_links:
-  twitter: IAshrapov
-  github:  Diyago
 
 
 # Set this to true to get LaTeX math equation support
