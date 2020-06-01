@@ -1,6 +1,6 @@
-# Kaggle-APTOS-2019-Blindness-Detection
+# Kaggle APTOS 2019 Blindness Detection Challenge   
 
-***Top 3% (76/2943) solution writeup** for the [Kaggle APTOS 2019 Blindness Detection](https://www.kaggle.com/c/aptos2019-blindness-detection).*
+***Top 3% (76/2943) solution writeup** for the [Kaggle APTOS 2019 Blindness Detection](https://www.kaggle.com/c/aptos2019-blindness-detection). Imagine being able to detect blindness before it happened. Millions of people suffer from diabetic retinopathy, the leading cause of blindness among working aged adults*
 
 This repository consists of code and configs that were used to train our best single model. The solution is powered by awesome [Catalyst](https://github.com/catalyst-team/catalyst) library.
 
