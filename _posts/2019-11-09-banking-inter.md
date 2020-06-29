@@ -1,4 +1,5 @@
-# Banking models interpretation talk was given at AI Journey Conference in Moscow. 
+# Banking models interpretation
+
 *Talk was given at AI Journey Conference in Moscow. Conference with leading international and Russian experts in AI and data analysis, top companies in the development and application of AI in business*
 
 
