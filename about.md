@@ -1,6 +1,7 @@
 # About
 
-My name is Insaf Ashrapov, I am a Senior Data Scientiest at Sberbank.
+My name is Insaf Ashrapov (Инсаф Ашрапов), I am a Senior Data Scientiest at Sberbank.
+
 
 ![Insaf Ashrapov's github stats](https://github-readme-stats.vercel.app/api?username=diyago&show_icons=true&theme=dark)
 
