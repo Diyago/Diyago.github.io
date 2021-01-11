@@ -4,7 +4,7 @@ The online hackathon by Digital Leader was held from 19.10 to 27.11.2020. I have
 As a result, I took 4th place and won swag prizes.
  
 
-![poster.jpg](/images/gan_hack/poster.jpg)
+![poster.png](/images/gan_hack/poster.png)
 
 
 The work of other participants can be found here:
